@@ -11,7 +11,7 @@ public class CreatArray_scores {
 			sum += scores[i];
 		}
 		double avg = sum/scores.length;
-		System.out.println("The average score of the students : " + avg);
+		System.out.println("The average score of students : " + avg);
 	}
 
 }
