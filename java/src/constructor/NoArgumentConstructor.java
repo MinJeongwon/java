@@ -12,7 +12,7 @@ class zoo{
 		this.name = name;
 	}	
 	
-	//no-argument constructor
+	//no-argument constructor overloading
 	//automatically genereted when having only no-argument constructor, thus no need to write
 	public zoo() {
 		this.name=name;
