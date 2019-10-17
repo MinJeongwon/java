@@ -17,7 +17,7 @@ class Bread2{
 		this.price = price;
 	}
 	
-	public void purchase() {//메소드 정의문
+	public void purchase() {
 		System.out.println("A " + type + " costs $" + price + " each.");
 	}	
 }
