@@ -4,7 +4,7 @@ class calculator{
 	
 	private int left, right;
 	
-	//parameterized constructor
+	//parameterized constructor overloading
 	public calculator(int left, int right) {
 		// TODO Auto-generated constructor stub
 		this.left=left;
