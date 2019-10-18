@@ -63,7 +63,7 @@ public class Constructor_Cafe {
 		
 		Cafe o5 = new Cafe();
 		o5.setCoffee("Pumpkin Latte");
-		System.out.println(o5.getCoffee() + " is only available in winter");
+		System.out.println("** " +o5.getCoffee() + " is only available in winter" + " **");
 	}
 
 }
