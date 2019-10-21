@@ -8,14 +8,17 @@ public class Create_ScoresAscendingOrder {
 		int [] b = {95, 50, 35, 70, 90};
 		
 		for (int i = 0; i < b.length-1; i++) {
-			if(b[i]>b[i+1]) {
-				int x=b[i];
-				b[i]=b[i+1];
-				b[i+1]=x;
-				String y=a[i];
-				a[i]=a[i+1];
-				a[i+1]=y;
+			for (int j = 0; j < b.length-1-i; j++) {
+				if(b[j]>b[j+1]) {
+					int x=b[j];
+					b[j]=b[j+1];
+					b[j+1]=x;
+					String y=a[j];
+					a[j]=a[j+1];
+					a[j+1]=y;
+				}
 			}
+			
 		}
 		System.out.println("< scores >");
 		for (int i = 0; i < b.length; i++) {
