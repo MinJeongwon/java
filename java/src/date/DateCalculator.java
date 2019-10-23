@@ -13,5 +13,7 @@ public class DateCalculator {
 		d.setDate(d.getDate()+100-1);
 		System.out.println("100 days from today : " + d.toLocaleString());
 	}
+	
+	
 
 }
